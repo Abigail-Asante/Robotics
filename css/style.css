@@ -1,0 +1,175 @@
+body {
+    padding: 0;
+    margin: 0;
+    overflow-x: hidden;
+    box-sizing: border-box;
+}
+
+#header-bg {
+    background-image: url("../images/nano_tech.jpg");
+    background-image: linear-gradient rgba(84, 82, 82, 0.5);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    padding: 2rem 10rem;
+    margin: auto;
+}
+
+#logo {
+    text-decoration: none;
+    color: rgb(187, 109, 20);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 40pt;
+    font-weight: bolder;
+
+
+}
+
+#nav-links {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+#ul-list {
+    display: flex;
+    gap: 50px;
+    text-decoration: none;
+    list-style-type: none;
+    
+
+}
+
+.nav-item {
+    text-decoration: none;
+    color: rgb(228, 121, 33);
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.nav-item:hover {
+    color: rgb(120, 94, 145);
+}
+
+.btn {
+    background-color: transparent;
+    padding: 4px 20px;
+    border-radius: 1rem;
+    border: 2px solid rgb(187, 90, 11);
+}
+
+.btn a {
+    text-decoration: none;
+    color: white;
+}
+
+.header-text {
+    color: white;
+    font-size: 30px;
+    margin-top: 10rem;
+}
+
+.toarrive {
+    color: rgba(233, 126, 3, 0.979);
+}
+
+.about-section {
+    margin: 7rem 10rem;
+    display: flex;
+    gap: 2rem;
+
+}
+
+.images {
+    display: flex;
+    width: 60%;
+    gap: 2rem;
+    height: 60%;
+}
+
+/* #bot2 {
+    margin-bottom: 1rem;
+} */
+.about-text {
+    width: 40%;
+}
+
+.about-text h2 {
+    font-size: 35px;
+}
+
+.about-text h3 {
+    color: rgb(255, 94, 0);
+    font-size: 30px;
+}
+.about-text p {
+    font-size: 20px;
+}
+.images img {
+    width: 60%;
+}
+
+.btnreadmore {
+    background-color: rgb(187, 90, 11);
+    color: white;
+    padding: 20px 20px;
+    border-radius: 30px;
+    border: none;
+}
+
+.btnreadmore a {
+    text-decoration: none;
+    color: white;
+}
+
+.btnreadmore:hover {
+    background-color: rgb(189, 173, 123);
+}
+
+.serve-section {
+    margin: 4rem 10rem;
+}
+
+.serve-images {
+    display: flex;
+    gap: 30px;
+
+}
+
+.image {
+    width: 50%;
+}
+
+.image img {
+    width: 100%;
+}
+
+.serve-text {
+    width: 100%;
+    padding: bottom;
+    padding: top;
+}
+
+.serve-text h3 {
+    color: rgb(255, 94, 0);
+    font-size: 30px;
+}
+
+.serve-text h1 {
+    font-size: 35px;
+}
+
+.serve-text p {
+    width: 80%;
+    font-size: 20px;
+}
+
+.image a {
+    text-decoration: none;
+    color: rgb(119, 87, 87);
+}
+
+.serve-btn{
+    text-align: center;
+    margin-top: 2rem;
+}
